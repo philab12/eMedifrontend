@@ -2,10 +2,8 @@
 <html lang="zxx">
 
     <?php 
-
         $title = 'Emedipay - Increasing Healthcare Availability';
         include ('head.php');
-    
     ?>
 
 <body id="top">
