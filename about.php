@@ -7,6 +7,11 @@
 	include ('head.php');
 
 ?>
+<style>
+	p{
+		text-align: justify;
+	}
+</style>
 
 <body id="top">
 
@@ -20,7 +25,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block text-center">
-          <span class="text-white">About Us</span>
+          <span class="text-white">Gerdds</span>
           <h1 class="text-capitalize mb-5 text-lg">About Us</h1>
 
           <!-- <ul class="list-inline breadcumb-nav">
@@ -28,6 +33,7 @@
             <li class="list-inline-item"><span class="text-white">/</span></li>
             <li class="list-inline-item"><a href="#" class="text-white-50">About Us</a></li>
           </ul> -->
+
         </div>
       </div>
     </div>
@@ -38,149 +44,42 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
-				<h2 class="title-color">Personal care for your healthy living</h2>
+				<h2 class="title-color">Why Gerdds</h2>
 			</div>
 			<div class="col-lg-8">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quod laborum alias. Vitae dolorum, officia sit! Saepe ullam facere at, consequatur incidunt, quae esse, quis ut reprehenderit dignissimos, libero delectus.</p>
-				<img src="images/about/sign.png" alt="" class="img-fluid">
+				<p>Millions of Children and adults in the third world die every year from diseases readily treated by essential drugs. Mr. Kofi Annan, former UN Secretary General, estimates that, one-third of the world's population lacks regular access to essential drugs of which the figure rises to over 50% in the poorest parts of Africa and Asia. In Ghana for example, one child in every ten dies before the age of five compared to one in every 150 in the UK. This is a result of poor healthcare provision in most developing countries. The average per capita spent in Switzerland on health service is over $6,000 per year compared to the average of less than $40 in West Africa, (Ghana is $66. Niger is $19 per capita per year. Haiti is $44 and Liberia, $29). The US spends nearly $8,000 per capita per year. The poorest countries carry the greatest burden of ill health and the impact is particularly profound when HIV infection is widespread.</p>
+				<p> For most developing countries total government spending on healthcare is minimal. Healthcare cost is supplemented by foreign aid and immigrant remittances to their home countries. In 2007 contribution from external sources was a little less than 25% of total health expenditure; with most developing countries struggling economically, it means most people don't have access to healthcare.</p>
+				
+				<p> According to the World Bank, 111 billion was remitted worldwide in 2001. In 2011, it was estimated at $375 billion. Of this, about 65 percent went to developing countries, with half of that money going to countries considered to be 'lower-middle income countries.' Of this amount about 50% is intended to be consumed in healthcare and prescription medication. For most families, the money is transferred through third party individuals, (cash to cash), and the money is either abused or finds uses other than for the purpose to which it was sent. As a result most developing world countries, especially countries in Africa suffer from rational use of medication, relying on local unorthodox medical practices and unregulated concoctions adding to medical complications and poor health, (morbidity and mortality).</p>
+				
+				<p> Due to this financial loss, most patients in poor countries do not often obtain the right medication. Those who do, do not purchase enough to complete the rational course of the treatment, rendering the drug ineffective at treating the targeted illness; a prognosis that leads to increased poor health.</p>
+				
+				<p> The cost of transferring money in itself also represents a significant loss to immigrants and their families. The Inter-American Development bank estimates that the total cost of sending remittances to Latin America and the Caribbean reached $4 billion in 2002, or about 12.5 percent of the remittance to that region. It is estimated that the total cost of the average money transfer ranges between 15 and 20 percent. This is a huge loss to what could go towards the cost of healthcare.</p>
+				
+				<h5> Key messages (WHO REPORT 2012)</h5>
+
+				<ul style="text-align: justify;">
+					<li>No country has yet been able to guarantee everyone immediate access to all the services that might maintain or improve their health. They all face resource constraints of one type or another, although these are most critical in low-income countries.</li>
+					<li>Every country could raise additional domestic funds for health or diversify their funding sources if they wished to.</li>
+					<li>Options include governments giving higher priority to health in their budget allocations, collecting taxes or insurance contributions more efficiently and raising additional funds through various types of innovative financing.</li>
+					<li>Taxes on harmful products such as tobacco and alcohol are one such option. They reduce consumption, improve health and increase the resources governments can spend on health.</li>
+					<li>Even with these innovations, increased donor flows will be necessary for most of the poorest countries for a considerable period of time. Donor countries can also raise more funds to channel to poorer countries in innovative ways, but they should also do more to meet their stated international commitments for official development assistance (ODA) and to provide more predictable and long-term aid flows.</li>
+				</ul>
 			</div>
 		</div>
-	</div>
-</section>
+		<div class="row" style="margin-top: 100px;">
+			<div class="col-md-8">
+				<h2 class="title-color">About Us</h2>
+				<p>GERDDS Corporation is set up to increase healthcare availability and affordability by using modern technology to connect immigrant families direct to healthcare providers. This avoids delays in healthcare remittances, eliminates transfer charges, and ensures immigrant healthcare support goes to cover healthcare cost and the right medication administered to promote rational use of medicine.</p>
 
-<section class="fetaure-page ">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-6">
-				<div class="about-block-item mb-5 mb-lg-0">
-					<img src="images/about/about-1.jpg" alt="" class="img-fluid w-100">
-					<h4 class="mt-3">Healthcare for Kids</h4>
-					<p>Voluptate aperiam esse possimus maxime repellendus, nihil quod accusantium .</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="about-block-item mb-5 mb-lg-0">
-					<img src="images/about/about-2.jpg" alt="" class="img-fluid w-100">
-					<h4 class="mt-3">Medical Counseling</h4>
-					<p>Voluptate aperiam esse possimus maxime repellendus, nihil quod accusantium .</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="about-block-item mb-5 mb-lg-0">
-					<img src="images/about/about-3.jpg" alt="" class="img-fluid w-100">
-					<h4 class="mt-3">Modern Equipments</h4>
-					<p>Voluptate aperiam esse possimus maxime repellendus, nihil quod accusantium .</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="about-block-item">
-					<img src="images/about/about-4.jpg" alt="" class="img-fluid w-100">
-					<h4 class="mt-3">Qualified Doctors</h4>
-					<p>Voluptate aperiam esse possimus maxime repellendus, nihil quod accusantium .</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="section awards">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-4">
-				<h2 class="title-color">Our Doctors achievements </h2>
-				<div class="divider mt-4 mb-5 mb-lg-0"></div>
-			</div>
-			<div class="col-lg-8">
-				<div class="row">
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="award-img">
-							<img src="images/about/3.png" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="award-img">
-							<img src="images/about/4.png" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="award-img">
-							<img src="images/about/1.png" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="award-img">
-							<img src="images/about/2.png" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="award-img">
-							<img src="images/about/5.png" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="award-img">
-							<img src="images/about/6.png" alt="" class="img-fluid">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+				<p>Healthcare providers are networked using GERDDS Corporation proprietary software, 'emedipay', made available on the World Wide Web. 'emedipay' serves as the interface between healthcare providers and the payees, essentially between families and friends in the International Community (Diaspora) and the healthcare provider. Payment is made by the payee at www.emedipay.com.</p>
 
-<section class="section team">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-6">
-				<div class="section-title text-center">
-					<h2 class="mb-4">Meet Our Specialist</h2>
-					<div class="divider mx-auto my-4"></div>
-					<p>Today’s users expect effortless experiences. Don’t let essential people and processes stay stuck in the past. Speed it up, skip the hassles</p>
-				</div>
+				<p>For most developing countries, the rest of the healthcare bill is supplemented by immigrant remittances to their families.GERDDS Corporation ensures real-time online payment that goes directly to the providers' bank account. GERDDS Corporation has also instituted a Payment Protection Plan (PPP) for registered families to cover health care cost for designated family members.</p>
 			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="team-block mb-5 mb-lg-0">
-					<img src="images/team/1.jpg" alt="" class="img-fluid w-100">
-
-					<div class="content">
-						<h4 class="mt-4 mb-0"><a href="doctor-single.html">John Marshal</a></h4>
-						<p>Internist, Emergency Physician</p>
-					</div>
-				</div>
+			<div class="col-md-4">
+				<img src="images/about/connect.jpg" alt="">
 			</div>
-
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="team-block mb-5 mb-lg-0">
-					<img src="images/team/2.jpg" alt="" class="img-fluid w-100">
-
-					<div class="content">
-						<h4 class="mt-4 mb-0"><a href="doctor-single.html">Marshal Root</a></h4>
-						<p>Surgeon, Сardiologist</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="team-block mb-5 mb-lg-0">
-					<img src="images/team/3.jpg" alt="" class="img-fluid w-100">
-
-					<div class="content">
-						<h4 class="mt-4 mb-0"><a href="doctor-single.html">Siamon john</a></h4>
-						<p>Internist, General Practitioner</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="team-block">
-					<img src="images/team/4.jpg" alt="" class="img-fluid w-100">
-
-					<div class="content">
-						<h4 class="mt-4 mb-0"><a href="doctor-single.html">Rishat Ahmed</a></h4>
-						<p>Orthopedic Surgeon</p>
-					</div>
-				</div>
+			<div class="col-md-12">
 			</div>
 		</div>
 	</div>
@@ -257,132 +156,57 @@
 		</div>
 	</div>
 </section>
-<!-- footer Start -->
-<footer class="footer section gray-bg">
+
+<section class="section about-page">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 mr-auto col-sm-6">
-				<div class="widget mb-5 mb-lg-0">
-					<div class="logo mb-4">
-						<img src="images/logo.png" alt="" class="img-fluid">
-					</div>
-					<p>Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus.</p>
-
-					<ul class="list-inline footer-socials mt-4">
-						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a></li>
-					</ul>
-				</div>
+			<div class="col-lg-4">
+				<h2 class="title-color">Value proposition</h2>
 			</div>
+			<div class="col-lg-8">
+				<ul>
+					<li>Online transaction ensures that moneys sent for the purposes of healthcare are used for the purposes for which it was sent.</li>
+					<li><strong>eMedipay</strong> is an automated payment system specially designed to make it easier for those in the International Community (Diaspora) to contribute towards the healthcare cost of families and loved ones.</li>
+					<li><strong>eMedipay</strong> ensures that patients get the much needed medical care and attention. In some countries where the so called 'cash & carry' is the order of the day, this will ensure that patients get treated immediately.</li>
+					<li><strong>eMedipay</strong> has arrangements with networked healthcare providers to bring patients special discounts.</li>
+					<li>Families in the International Community (Diaspora) will be assured that payments for healthcare cost do not become a barrier to the survival of their loved ones.</li>
+					<li>online transactions are instant; it saves families the 15-20% transfer cost lost to money transfer.</li>
+					<li>The Payment Protection Plan arrangement by GERDDS will also ensure that patients are treated even before payment is made.</li>
+					<li>There is no status or credit rating constraint. Families pay no interest.</li>
+				</ul>
 
-			<div class="col-lg-2 col-md-6 col-sm-6">
-				<div class="widget mb-5 mb-lg-0">
-					<h4 class="text-capitalize mb-3">Department</h4>
-					<div class="divider mb-4"></div>
+				<p style="margin-top: 50px;">The WHO 2012 Report recommends three approaches to making healthcare service affordable and accessible:</p>
 
-					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">Surgery </a></li>
-						<li><a href="#">Wome's Health</a></li>
-						<li><a href="#">Radiology</a></li>
-						<li><a href="#">Cardioc</a></li>
-						<li><a href="#">Medicine</a></li>
-					</ul>
-				</div>
-			</div>
+				<ol>
+					<li>Make health a higher priority in existing spending, particularly in a government's budget;</li>
+					<li>Find new or diversified sources of domestic funding; and</li>
+					<li>Increase external financial support.</li>
+				</ol>
 
-			<div class="col-lg-2 col-md-6 col-sm-6">
-				<div class="widget mb-5 mb-lg-0">
-					<h4 class="text-capitalize mb-3">Support</h4>
-					<div class="divider mb-4"></div>
-
-					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Company Support </a></li>
-						<li><a href="#">FAQuestions</a></li>
-						<li><a href="#">Company Licence</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="widget widget-contact mb-5 mb-lg-0">
-					<h4 class="text-capitalize mb-3">Get in Touch</h4>
-					<div class="divider mb-4"></div>
-
-					<div class="footer-contact-block mb-4">
-						<div class="icon d-flex align-items-center">
-							<i class="icofont-email mr-3"></i>
-							<span class="h6 mb-0">Support Available for 24/7</span>
-						</div>
-						<h4 class="mt-2"><a href="tel:+23-345-67890">Support@email.com</a></h4>
-					</div>
-
-					<div class="footer-contact-block">
-						<div class="icon d-flex align-items-center">
-							<i class="icofont-support mr-3"></i>
-							<span class="h6 mb-0">Mon to Fri : 08:30 - 18:00</span>
-						</div>
-						<h4 class="mt-2"><a href="tel:+23-345-67890">+23-456-6588</a></h4>
-					</div>
-				</div>
+				<p>For all countries, steps 1 and 2 are very important. But for struggling developing countries, step 3 cannot be denied. eMedipay provides a platform to facilitate step 3</p>
 			</div>
 		</div>
-		
-		<div class="footer-btm py-4 mt-5">
-			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-6">
-					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Novena</span> by <a href="https://themefisher.com/" target="_blank">Themefisher</a>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="subscribe-form text-lg-right mt-5 mt-lg-0">
-						<form action="#" class="subscribe">
-							<input type="text" class="form-control" placeholder="Your Email address">
-							<a href="#" class="btn btn-main-2 btn-round-full">Subscribe</a>
-						</form>
-					</div>
-				</div>
+		<div class="row" style="margin-top: 100px;">
+			<div class="col-lg-4">
+				<h2 class="title-color">Provider benefits</h2>
 			</div>
-
-			<div class="row">
-				<div class="col-lg-4">
-					<a class="backtop js-scroll-trigger" href="#top">
-						<i class="icofont-long-arrow-up"></i>
-					</a>
-				</div>
+			<div class="col-lg-8">
+				<ul class="staic_ul">
+					<li><strong>eMediPay</strong>  offers the provider (doctors, pharmacists, dentists, eye specialist, clinical laboratories, etc.) a platform to receive much needed cash to run their businesses and provide optimum care for their patients</li>
+					<li><strong>eMediPay</strong>  gives healthcare providers peace of mind; no paper work involved nor staff chasing after patients unpaid bills</li>
+					<li><strong>eMediPay</strong>  puts money directly into the providers business account</li>
+					<li><strong>eMediPay</strong>  facilitates collection of accounts payable, thus, improving business cash flow.</li>
+					<li><strong>eMediPay</strong>  increases provider's global recognition by advertising the providers business on the Internet</li>
+					<li>There are no set up costs or registration fee to offer <strong>eMediPay</strong>.</li>
+					<li>Simply fill the online provider application and you will be provided with a unique username and password to start offering <strong>eMediPay</strong>.</li>
+				</ul>
 			</div>
 		</div>
 	</div>
-</footer>
-   
+</section>
 
-    <!-- 
-    Essential Scripts
-    =====================================-->
 
-    
-    <!-- Main jQuery -->
-    <script src="plugins/jquery/jquery.js"></script>
-    <!-- Bootstrap 4.3.2 -->
-    <script src="plugins/bootstrap/js/popper.js"></script>
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="plugins/counterup/jquery.easing.js"></script>
-    <!-- Slick Slider -->
-    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-    <!-- Counterup -->
-    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
-    
-    <script src="plugins/shuffle/shuffle.min.js"></script>
-    <script src="plugins/counterup/jquery.counterup.min.js"></script>
-    <!-- Google Map -->
-    <script src="plugins/google-map/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
-    
-    <script src="js/script.js"></script>
-    <script src="js/contact.js"></script>
-
+	<?php include('footer.php'); ?>
+    <?php include('scripts.php'); ?>
   </body>
   </html>
