@@ -8,7 +8,8 @@
 
 ?>
 <style>
-	p{
+	p
+	{
 		text-align: justify;
 	}
 </style>
