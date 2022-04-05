@@ -19,15 +19,15 @@
 
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="widget mb-5 mb-lg-0">
-                        <h4 class="text-capitalize mb-3">Department</h4>
+                        <h4 class="text-capitalize mb-3">Networks</h4>
                         <div class="divider mb-4"></div>
 
                         <ul class="list-unstyled footer-menu lh-35">
-                            <li><a href="department.html">Medical</a></li>
-                            <li><a href="department-single.html">Pharmacy</a></li>
-                            <li><a href="department.html">Dental</a></li>
-                            <li><a href="department.html">Vision</a></li>
-                            <li><a href="department.html">Medical Labs</a></li>
+                            <li><a href="medical.php">Medical</a></li>
+                            <li><a href="pharmacy.php">Pharmacy</a></li>
+                            <li><a href="dental.php">Dental</a></li>
+                            <li><a href="vision.php">Vision</a></li>
+                            <li><a href="labs.php">Medical Labs</a></li>
                         </ul>
                     </div>
                 </div>

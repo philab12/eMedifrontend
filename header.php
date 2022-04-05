@@ -11,9 +11,8 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-                            <a href="tel:+123-4567-89876">
-                                <span>Call Now : </span>
-                                <span class="h4">123-4567-89876</span>
+                            <a href="app/sign-in.php" target="_new">
+                                <span>Sign In</span>
                             </a>
                         </div>
                     </div>
@@ -35,20 +34,23 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="index.php">Home</a>
                         </li>
+
                         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="blog-sidebar.php">Medical Guide</a></li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i class="icofont-thin-down"></i></a>
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Networks <i class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                                <li><a class="dropdown-item" href="department.php">Medical</a></li>
-                                <li><a class="dropdown-item" href="department-single.php">Pharmacy</a></li>
-                                <li><a class="dropdown-item" href="department.php">Dental</a></li>
-                                <li><a class="dropdown-item" href="department.php">Vision</a></li>
-                                <li><a class="dropdown-item" href="department.php">Medical Labs</a></li>
+                                <li><a class="dropdown-item" href="medical.php">Medical</a></li>
+                                <li><a class="dropdown-item" href="pharmacy.php">Pharmacy</a></li>
+                                <li><a class="dropdown-item" href="dental.php">Dental</a></li>
+                                <li><a class="dropdown-item" href="vision.php">Vision</a></li>
+                                <li><a class="dropdown-item" href="labs.php">Medical Labs</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="service.php">Outreach Program</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="medical-guide.php">Medical Guide</a></li>
+
+                        <li class="nav-item"><a class="nav-link" href="outreach-program.php">Outreach Program</a></li>
                         <!--
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="doctor.php" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i class="icofont-thin-down"></i></a>

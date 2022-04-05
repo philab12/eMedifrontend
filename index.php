@@ -22,7 +22,7 @@
 
                         <p class="mb-4 pr-5">"Do not let healthcare cost become a barrier to the wellbeing of your parents and loved ones. Use eMedipay; Secured Healthcare Platform."</p>
                         <div class="btn-container ">
-                            <a href="appoinment.html" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Get Started <i class="icofont-simple-right ml-2  "></i></a>
+                            <a href="app/sign-up.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full" target="_new">Get Started <i class="icofont-simple-right ml-2  "></i></a>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                             <h4 class="mb-3">Supporting Families</h4>
                             <p class="mb-4" style="text-align: justify;">Register your parents, family and loved ones with qualified healthcare providers in your local country. Avoid "cash to cash" money transfer through family or third party that can get into the wrong hands. Avoid counterfeit
                                 medicine. eMedipay connects the International Community & their families directly to qualified healthcare providers, (Pharmacies, Doctors, Medical labs, Dentists, Vision).</p>
-                            <a href="appoinment.html" class="btn btn-main btn-round-full">Register</a>
+                            <a href="app/sign-up.php" class="btn btn-main btn-round-full" target="_new">Register</a>
                         </div>
 
                         <div class="feature-item mb-5 mb-lg-0">
@@ -52,7 +52,7 @@
                             <span>Join The Team</span>
                             <h4 class="mb-3">Provider Network</h4>
                             <p class="mb-4" style="text-align: justify;">Healthcare providers, (Pharmacies, Doctors, Clinic, Medical labs). Get your free healthcare provider access to offer eMedipay. Increase your cash flow to better serve your patients.<br> <br>"A healthy nation is a healthy economy."</p>
-                            <a href="appoinment.html" class="btn btn-main btn-round-full">Join Us</a>
+                            <a href="app/sign-up.php" class="btn btn-main btn-round-full" target="_new">Join Us</a>
                         </div>
 
                         <div class="feature-item mb-5 mb-lg-0">
@@ -62,7 +62,7 @@
                             <span>Be Sure</span>
                             <h4 class="mb-3">Medical Guide</h4>
                             <p class="mb-4" style="text-align: justify;">Rational use of medicine requires that patients take medication appropriate to their clinical needs in doses that meet their individual requirements for the appropriate period of time and not to use medication prescribed for others. Encourage your families to see their doctor!</p>
-                            <a href="appoinment.html" class="btn btn-main btn-round-full">Read More</a>
+                            <a href="about.php" class="btn btn-main btn-round-full">Read More</a>
                         </div>
                     </div>
                 </div>
