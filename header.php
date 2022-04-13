@@ -10,8 +10,8 @@
                         </ul>
                     </div>
                     <div class="col-lg-6">
-                        <div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-                            <a href="app/sign-in.php" target="_new">
+                        <div class="text-lg-right top-bar-info mt-2 mt-lg-0">
+                            <a href="app/sign-in.php" target="_new" style="color: #fff;">
                                 <span>Sign In</span>
                             </a>
                         </div>
