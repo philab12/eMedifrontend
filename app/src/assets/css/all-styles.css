@@ -1,0 +1,64 @@
+/* Toastr */
+
+@import "lib/toastr/toastr.min.css";
+
+/* Sweet Alert */
+
+@import "lib/sweetalert/sweetalert.css";
+
+/* Range Slider */
+
+@import "lib/rangSlider/ion.rangeSlider.css";
+@import "lib/rangSlider/ion.rangeSlider.skinFlat.css";
+
+/* Bar Rating */
+
+@import "lib/barRating/barRating.css";
+
+/* Nestable */
+
+@import "lib/nestable/nestable.css";
+
+/* JsGrid */
+
+@import "lib/jsgrid/jsgrid-theme.min.css";
+@import "lib/jsgrid/jsgrid.min.css";
+
+/* Datatable */
+
+@import "lib/data-table/dataTables.bootstrap.min.css";
+@import "lib/data-table/buttons.bootstrap.min.css";
+
+/* Calender 2 */
+
+@import "lib/calendar2/pignose.calendar.min.css";
+
+/* Weather Icon */
+
+@import "lib/weather-icons.css";
+
+/* Owl Carousel */
+
+@import "lib/owl.carousel.min.css";
+@import "lib/owl.theme.default.min.css";
+
+/* Select2 */
+
+@import "lib/select2/select2.min.css";
+
+/* Chartist */
+
+@import "lib/chartist/chartist.min.css";
+
+/* Calender */
+
+@import "lib/calendar/fullcalendar.css";
+
+/* Common */
+
+@import "lib/font-awesome.min.css";
+@import "lib/themify-icons.css";
+@import "lib/menubar/sidebar.css";
+@import "lib/bootstrap.min.css";
+@import "lib/helper.css";
+@import "style.css";
