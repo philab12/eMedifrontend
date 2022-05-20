@@ -1,0 +1,186 @@
+<template>
+  <div class="main">
+    <div class="section__content section__content--p30 mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">                               
+                    <div class="row">
+                        <div class="col-3">
+                            <h3 class="title-5 m-b-35">Providers</h3>
+                        </div>
+                        <div class="col text-end">
+                            <div style="max-width: 500px; float:right;">
+                                <form action="">
+                                    <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Search" name="SearchTerm">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Status</option>
+                                        <option value="1">Pending Approval</option>
+                                        <option value="2">Approved</option>
+                                        <option value="3">Ban</option>
+                                        <option value="3">Rejected</option>
+                                    </select>
+                                    <button class="input-group-text"><i class="fa-solid fa-search"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>   
+                        <div class="col-2 text-end">
+                            <router-link to="/modal" class="btn btn-outline-success add_provider" data-toggle="modal" data-target="#providerModal">
+                                <i class="fas fa-plus"></i> Add Provider
+                            </router-link>                       
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <div class="table-responsive table-responsive-data2">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Provider</th>
+                                    <th scope="col">Country</th>
+                                    <th scope="col">Contact</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Health Care</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    <th scope="row">1</th>
+                                        <td>Mark Mantey</td>
+                                        <td>United States of America</td>
+                                        <td>1-190-23548</td>
+                                        <td>mantemark@gmail.com</td>
+                                        <td>-</td>
+                                        <td>Pending Approval</td>
+                                        <td>
+                                            <div to="/" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fa-solid fa-ellipsis position-relative"></i>
+                                            </div>
+                                            <div class="dropdown-menu text-small shadow" aria-labelledby="dropdownDependant1">
+                                                <li class="d-flex">                                                    
+                                                    <div class="btn" title="">
+                                                        <i class="fa-solid fa-pencil"></i>
+                                                    </div>                                                  
+                                                    <div class="btn" title="">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                    </div>                                                  
+                                                    <div class="btn" title="">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </div>
+                                                </li>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">2</th>
+                                        <td>Jacob Peniam</td>
+                                        <td>Denmark</td>
+                                        <td>+443 245 698 7899</td>
+                                        <td>mantemark@gmail.com</td>
+                                        <td>-</td>
+                                        <td>Rejected</td>
+                                        <td>
+                                            <div to="/" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fa-solid fa-ellipsis position-relative"></i>
+                                            </div>
+                                            <div class="dropdown-menu text-small shadow" aria-labelledby="dropdownDependant2">
+                                                <li class="d-flex">                                                    
+                                                    <div class="btn" title="">
+                                                        <i class="fa-solid fa-pencil"></i>
+                                                    </div>                                                  
+                                                    <div class="btn" title="">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                    </div>                                                  
+                                                    <div class="btn" title="">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </div>
+                                                </li>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">3</th>
+                                        <td>Rochelle Kosneich</td>
+                                        <td>Czech Rebublic</td>
+                                        <td>00420 777 876 526</td>
+                                        <td>rochelle.kosneich@gmail.com</td>
+                                        <td>-</td>
+                                        <td>Banned</td>
+                                        <td>
+                                            <div to="/" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fa-solid fa-ellipsis position-relative"></i>
+                                            </div>
+                                            <div class="dropdown-menu text-small shadow" aria-labelledby="dropdownDependant3">
+                                                <li class="d-flex">                                                    
+                                                    <div class="btn" title="">
+                                                        <i class="fa-solid fa-pencil"></i>
+                                                    </div>                                                  
+                                                    <div class="btn" title="">
+                                                        <i class="fa-solid fa-trash"></i>
+                                                    </div>                                                  
+                                                    <div class="btn" title="">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </div>
+                                                </li>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+        </div>
+    </div>
+  </div>
+  
+</template>
+
+<script>
+// @ is an alias to /src
+
+export default {
+  name: "ProvidersView",
+  /* data:  function() {
+        return {
+            user: {
+                name: "Hello",
+                email: "hello@gmail.com",
+                password: ""
+            }
+        };
+    }, */
+  methods: {
+    /* showModal: function() {
+        alert(this.user); 
+    }*/
+  },
+  components: {
+  },
+};
+
+</script>

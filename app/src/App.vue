@@ -1,5 +1,6 @@
 <template>
   <SideBarComp/>
+  <NavBarComp/>
   <main>
     <router-view/>  
   </main>
@@ -7,8 +8,10 @@
 
 <script>
 import SideBarComp from "./components/SideBarComp.vue"
+import NavBarComp from "./components/NavBarComp.vue"
+
 export default {
-  components: { SideBarComp }
+  components: { SideBarComp, NavBarComp }
 }
 </script>
 
