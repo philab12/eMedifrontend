@@ -1,4 +1,5 @@
 <template>
+<div class="content-wrap ps-3 pe-3">
   <div class="main">
     <div class="section__content section__content--p30 mt-5">
         <div class="container-fluid">
@@ -18,14 +19,13 @@
                                 </form>
                             </div>
                         </div>   
-                        <div class="col-2 text-end">
-                            <button class="btn btn-outline-success add_dependant" data-toggle="modal" data-target="#dependantsModal">
+                        <div class="col-3 text-end">
+                            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#linkUserModal">
                                 <i class="fas fa-chain"></i> Link User
                             </button>                       
                         </div>
                     </div>
                 </div>
-                
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <div class="table-responsive table-responsive-data2">
@@ -125,6 +125,27 @@
         </div>
     </div>
   </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="linkUserModal" tabindex="-1" aria-labelledby="linkUserModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="linkUserModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
   
 </template>
 

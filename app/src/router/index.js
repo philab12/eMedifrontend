@@ -1,35 +1,34 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
-import UIComponents from "@/components/UIComponents.vue";
+/* import UIComponents from "@/components/UIComponents.vue";
 import SampleForm from "@/components/SampleForm.vue";
-import SampleTable from "@/components/SampleTable.vue";
+import SampleTable from "@/components/SampleTable.vue";*/
 import ProvidersView from "@/views/ProvidersView.vue";
 import SupportMembersView from "@/views/SupportMembersView.vue";
 import DependantsView from "@/views/DependantsView.vue";
 import AllUsersView from "@/views/AllUsersView.vue";
 import LinkUsersToProvidersView from "@/views/LinkUsersToProvidersView.vue";
-import ModalView from "@/views/ModalView.vue";
 
 const routes = [{
         path: "/",
         name: "home",
         component: HomeView,
     },
-    {
-        path: "/components",
-        name: "UIComponents",
-        component: UIComponents,
-    },
-    {
-        path: "/form",
-        name: "SampleForm",
-        component: SampleForm,
-    },
-    {
-        path: "/table",
-        name: "SampleTable",
-        component: SampleTable,
-    },
+    /*{
+           path: "/components",
+           name: "UIComponents",
+           component: UIComponents,
+       },
+       {
+           path: "/form",
+           name: "SampleForm",
+           component: SampleForm,
+       },
+       {
+           path: "/table",
+           name: "SampleTable",
+           component: SampleTable,
+       },*/
     {
         path: "/providers",
         name: "ProvidersView",
@@ -54,11 +53,6 @@ const routes = [{
         path: "/link-users-to-providers",
         name: "LinkUsersToProvidersView",
         component: LinkUsersToProvidersView,
-    },
-    {
-        path: "/modal",
-        name: "ModalView",
-        component: ModalView,
     }
 ];
 
