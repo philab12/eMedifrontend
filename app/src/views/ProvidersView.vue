@@ -1,4 +1,7 @@
 <template>
+<div>
+    <SideBarComp/>
+    <NavBarComp/>
     <div class="content-wrap">
         <div class="main">
             <div class="section__content section__content--p30">
@@ -144,23 +147,24 @@
         </div>
     </div>
 
-<!-- Modal -->
-<div class="modal fade" id="providerModal" tabindex="-1" aria-labelledby="providerModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="providerModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="providerModal" tabindex="-1" aria-labelledby="providerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="providerModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            ...
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+        </div>
     </div>
-  </div>
+    </div>
 </div>
 </template>
 
@@ -168,6 +172,8 @@
 // @ is an alias to /src
 import HeaderComp from "@/components/HeaderComp.vue"
 import FooterComp from "@/components/FooterComp.vue"
+import SideBarComp from "@/components/SideBarComp.vue"
+import NavBarComp from "@/components/NavBarComp.vue"
 
 export default {
   name: "ProvidersView",
@@ -186,7 +192,10 @@ export default {
     }
   },*/
   components: {
-      HeaderComp, FooterComp
+    HeaderComp, 
+    FooterComp,
+    SideBarComp, 
+    NavBarComp,
   },
 };
 

@@ -1,14 +1,14 @@
 <template>
   <main>
-    <SideBarComp/>
-    <NavBarComp/>
-    <router-view/>
+    <router-view v-slot="{Component, route}">
+      <transition name="effect" mode="out-in">
+        <component :is="Component" :key="route.path"></component>
+      </transition>
+    </router-view>
   </main>
 </template>
 
 <script>
-import SideBarComp from "./components/SideBarComp.vue"
-import NavBarComp from "./components/NavBarComp.vue"
 import jQuery from "jquery"
 
 const $ = jQuery;
@@ -16,8 +16,9 @@ window.$ = $;
 
 export default {
   components: { 
-    SideBarComp, 
-    NavBarComp,
+  },
+  mounted () {
+    document.body.classList.add('pace-done');
   },
   /*data:  function() {
         return {
@@ -38,5 +39,18 @@ export default {
 
 .modal-dialog{
    top:100px;
+}
+
+/* route transitions */
+.effect-enter-active, .effect-leave-active {
+  transition: 0.3s
+}
+
+.effect-leave-to {
+  opacity: 0;
+}
+
+.effect-enter-from {
+  opacity: 0;
 }
 </style>

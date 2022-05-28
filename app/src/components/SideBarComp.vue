@@ -3,14 +3,15 @@
         <div class="nano">
             <div class="nano-content">
                 <div class="logo shadow-lg" style="max-height: 72px;">
-                    <a href="index.html">
-                        <img src="@/assets/eMedipay-logo-all-white.png" style="height: 45px;"/>
-                    </a>
+                    <router-link to="/dashboard">
+                        <img src="@/assets/eMedipay-logo-all-white-icon.png" style="height: 45px;"/>
+                        <span class="font-white">eMedipay</span>
+                    </router-link>
                 </div>
                 <ul class="nav nav-pills flex-column mb-auto mt-3">
                     <li class="label">Main</li>
                     <li class="nav-item">
-                        <router-link to="/" class="nav-link">
+                        <router-link to="/dashboard" class="nav-link">
                             <i class="ti-home"></i> Dashboard
                             <!--<span class="badge badge-primary">2</span>-->
                         </router-link>

@@ -77,4 +77,9 @@ export default {
 .notification-footer{
     text-align: center;
     padding: 10px;
-}</style>
+}
+
+.dropdown-menu li:hover{
+  background: #f1f1f1;
+}
+</style>

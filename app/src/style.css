@@ -3469,7 +3469,7 @@ tbody tr td:last-child {
 }
 
 .login-content {
-    margin: 100px 0;
+    margin: 40px 0;
 }
 
 .login-form {
@@ -4826,12 +4826,12 @@ h6.h1 {
 -----------------------------*/
 
 .bg-facebook {
-    background: #3b5998;
+    background: #3b5998 !important;
     fill: #3b5998;
 }
 
 .bg-twitter {
-    background: #1da1f2;
+    background: #1da1f2 !important;
     fill: #1da1f2;
 }
 
@@ -4841,12 +4841,17 @@ h6.h1 {
 }
 
 .bg-google-plus {
-    background: #dd4b39;
+    background: #dd4b39 !important;
     fill: #dd4b39;
 }
 
 .bg-linkedin {
-    background: #007bb6;
+    background: #007bb6 !important;
+}
+
+.bg-emedipay {
+    background: #6b51df !important;
+    fill: #6b51df;
 }
 
 
@@ -5576,4 +5581,12 @@ only screen and (min-resolution: 2dppx) {
     .retina-logo {
         display: inline-block !important;
     }
+}
+
+.register-form .buttons {
+    display: none;
+}
+
+.show-buttons {
+    display: block !important;
 }

@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
-/* import UIComponents from "@/components/UIComponents.vue";
-import SampleForm from "@/components/SampleForm.vue";
-import SampleTable from "@/components/SampleTable.vue";*/
+import DashboardView from "@/views/DashboardView.vue";
+import RegisterView from "@/views/RegisterView.vue";
+import ForgotPasswordView from "@/views/ForgotPasswordView.vue";
+import ResetPasswordView from "@/views/ResetPasswordView.vue";
 import ProvidersView from "@/views/ProvidersView.vue";
 import SupportMembersView from "@/views/SupportMembersView.vue";
 import DependantsView from "@/views/DependantsView.vue";
@@ -14,21 +15,26 @@ const routes = [{
         name: "home",
         component: HomeView,
     },
-    /*{
-           path: "/components",
-           name: "UIComponents",
-           component: UIComponents,
-       },
-       {
-           path: "/form",
-           name: "SampleForm",
-           component: SampleForm,
-       },
-       {
-           path: "/table",
-           name: "SampleTable",
-           component: SampleTable,
-       },*/
+    {
+        path: "/dashboard",
+        name: "DashboardView",
+        component: DashboardView,
+    },
+    {
+        path: "/register",
+        name: "RegisterView",
+        component: RegisterView,
+    },
+    {
+        path: "/forgot-password",
+        name: "ForgotPasswordView",
+        component: ForgotPasswordView,
+    },
+    {
+        path: "/reset-password",
+        name: "ResetPasswordView",
+        component: ResetPasswordView,
+    },
     {
         path: "/providers",
         name: "ProvidersView",

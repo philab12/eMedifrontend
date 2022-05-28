@@ -61,8 +61,4 @@ export default {
 .user-drop-item:hover{
   color: #6b51df;
 }
-
-.dropdown-menu li:hover{
-  background: #f1f1f1;
-}
 </style>
