@@ -4,6 +4,7 @@ import DashboardView from "@/views/DashboardView.vue";
 import RegisterView from "@/views/RegisterView.vue";
 import ForgotPasswordView from "@/views/ForgotPasswordView.vue";
 import ResetPasswordView from "@/views/ResetPasswordView.vue";
+import SelectPortalView from "@/views/SelectPortalView.vue";
 import ProvidersView from "@/views/ProvidersView.vue";
 import SupportMembersView from "@/views/SupportMembersView.vue";
 import DependantsView from "@/views/DependantsView.vue";
@@ -34,6 +35,11 @@ const routes = [{
         path: "/reset-password",
         name: "ResetPasswordView",
         component: ResetPasswordView,
+    },
+    {
+        path: "/select-portal",
+        name: "SelectPortalView",
+        component: SelectPortalView,
     },
     {
         path: "/providers",

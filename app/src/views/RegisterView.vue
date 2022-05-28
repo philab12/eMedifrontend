@@ -98,41 +98,160 @@
                                     </div>
                                 </span>
                                 <span v-else-if="type == 'provider'">
-                                    <div class="form-group">
-                                        <label>User Name</label>
-                                        <input type="email" class="form-control" placeholder="User Name">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>Name</label>
+                                                <input type="text" class="form-control" placeholder="Name" v-model="provider.fname">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label>Email address</label>
-                                        <input type="email" class="form-control" placeholder="Email">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>country</label>
+                                                <select class="form-control">
+                                                    <option>--Choose a Country--</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>address</label>
+                                                <input type="text" class="form-control" placeholder="Address" v-model="provider.address">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>city</label>
+                                                <input type="text" class="form-control" placeholder="City" v-model="provider.city">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>zip</label>
+                                                <input type="text" class="form-control" placeholder="Zip Code" v-model="provider.zip">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label>Password</label>
-                                        <input type="password" class="form-control" placeholder="Password">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>contact</label>
+                                                <input type="text" class="form-control" placeholder="Contact" v-model="provider.contact">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>email</label>
+                                                <input type="email" class="form-control" placeholder="Email" v-model="provider.email">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Agree the terms and policy 
-                                        </label>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>health care</label>
+                                                <input type="text" class="form-control" placeholder="Health Care" v-model="provider.healthcare">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Agree the terms and policy 
+                                                </label>
+                                            </div>
+                                        </div>
                                     </div>
                                 </span>
                                 <span v-else-if="type == 'support'">
-                                    <div class="form-group">
-                                        <label>User Name</label>
-                                        <input type="email" class="form-control" placeholder="User Name">
+                                    
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>first name</label>
+                                                <input type="text" class="form-control" placeholder="First Name" v-model="support.fname">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>last name</label>
+                                                <input type="text" class="form-control" placeholder="Last Name" v-model="support.lname">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>other names</label>
+                                                <input type="text" class="form-control" placeholder="Other Names" v-model="support.oname">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label>Email address</label>
-                                        <input type="email" class="form-control" placeholder="Email">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>country</label>
+                                                <select class="form-control" v-model="support.country">
+                                                    <option>--Choose a Country--</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>address</label>
+                                                <input type="text" class="form-control" placeholder="Address" v-model="support.address">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>state</label>
+                                                <input type="text" class="form-control" placeholder="State" v-model="support.state">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>city</label>
+                                                <input type="text" class="form-control" placeholder="City" v-model="support.city">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label>Password</label>
-                                        <input type="password" class="form-control" placeholder="Password">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>contact</label>
+                                                <input type="text" class="form-control" placeholder="Contact" v-model="support.contact">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>email</label>
+                                                <input type="email" class="form-control" placeholder="Email" v-model="support.email">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Agree the terms and policy 
-                                        </label>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>password</label>
+                                                <input type="password" class="form-control" placeholder="Password" v-model="support.password">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"> 
+                                                <label>confirm password</label>
+                                                <input type="password" class="form-control" placeholder="Confirm Password">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Agree the terms and policy 
+                                                </label>
+                                            </div>
+                                        </div>
                                     </div>
                                 </span>                                
                                 <span action="" v-else>
